@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+tr {
+    width: 450px;
+    height: 150px;
+}
+
+td,
+img {
+    height: 150px;
+    width: 150px;
+}
+
+table,
+tr,
+td {
+    border: 5px solid teal;
+    border-collapse: collapse;
+}
+
+button {
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    background: chartreuse;
+    font-size: 30px;
+    color: white;
+}
